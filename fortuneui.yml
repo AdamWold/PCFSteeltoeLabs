@@ -1,0 +1,20 @@
+{
+"fortuneService": {
+    "scheme": "http",
+    "address": "fortuneservice-bonhomous-antecourt.apps.selma.cf-app.com",
+    "randomFortunePath": "api/fortunes/random",
+    "allFortunesPath": "api/fortunes/all"
+  },
+  "spring": {
+    "application": {
+      "name": "fortuneui"
+    },
+    "cloud": {
+      "config": {
+        "uri": "http://localhost:8888",
+        "validate_certificates" :  false
+      }
+    }
+  }
+
+}
